@@ -316,21 +316,133 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-slate-800 text-white p-4 mt-10">
-      <div class="container mx-auto text-center">
-        <div>
-          <ul>
-            <li><a href="#">Premium</a></li>
-            <li><a href="#">API</a></li>
-            <li><a href="#">Article</a></li>
-            <li><a href="#">10 Minute Mall</a></li>
-            <li><a href="#">Email Generator</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Faq</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">Advertising</a></li>
+    <footer class="bg-slate-800 text-white p-4 mt-10 pb-20">
+      <div class="container mx-auto text-center space-y-4">
+        <ul
+          class="flex flex-wrap justify-center gap-4 text-sm font-normal text-slate-300 py-4 border-b border-slate-600 border-solid"
+        >
+          <li class="hover:text-green-500"><a href="#">Premium</a></li>
+          <li class="hover:text-green-500"><a href="#">API</a></li>
+          <li class="hover:text-green-500"><a href="#">Article</a></li>
+          <li class="hover:text-green-500"><a href="#">10 Minute Mall</a></li>
+          <li class="hover:text-green-500">
+            <a href="#">Email Generator</a>
+          </li>
+          <li class="hover:text-green-500"><a href="#">Privacy</a></li>
+          <li class="hover:text-green-500"><a href="#">Terms</a></li>
+          <li class="hover:text-green-500"><a href="#">Faq</a></li>
+          <li class="hover:text-green-500"><a href="#">Contacts</a></li>
+          <li class="hover:text-green-500"><a href="#">Advertising</a></li>
+        </ul>
+        <div class="flex items-center gap-4 justify-center md:justify-between flex-wrap">
+          <ul
+            class="flex items-center text-slate-500 text-xs divide-x divide-slate-600 divide-solid space-x-1 font-normal block order-2 md:order-1"
+          >
+            <li class="hover:underline ps-1">
+              <a href="#" class="">Receive SMS</a>
+            </li>
+            <li class="hover:underline ps-1">
+              <a href="#" class="">10MinuteMail</a>
+            </li>
+            <li class="hover:underline ps-1">
+              <a href="#" class="">My Phone Number</a>
+            </li>
           </ul>
+          <div class="flex items-center block gap-4 justify-center order-1 md:order-2">
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/app-store.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for iPhone and iPad"
+              />
+              <span class="ms-2 text-white md:block hidden">App Store</span>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/gplay.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for Android"
+              />
+              <span class="ms-2 text-white md:block hidden">Google Play</span>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/amazon.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for iPhone and iPad"
+              />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/chrome.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for Android"
+              />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/firefox.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for iPhone and iPad"
+              />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/slack.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for Android"
+              />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="flex items-center border border-slate-600 p-2 rounded-lg hover:bg-slate-200 text-xs bg-slate-700 hover:bg-slate-900 transition-all duration-200"
+            >
+              <img
+                src="https://temp-mail.org/images/icons/footer/telegram.svg"
+                class="w-7 h-7"
+                alt="Temporary email app for Android"
+              />
+            </a>
+          </div>
+          <div class="order-3 md:order-3 block">
+            <form action="/action_page.php">
+              <select
+                name="country"
+                id="country"
+                class="bg-slate-700 p-2 rounded-xl border border-slate-600"
+              >
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </form>
+          </div>
         </div>
         <!-- <p>&copy; 2024 Temp Mail. All rights reserved.</p> -->
       </div>
