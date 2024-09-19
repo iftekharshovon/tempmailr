@@ -73,17 +73,17 @@
     </header>
 
     <div class="p-4 bg-[url('https://temp-mail.org/js/images/header-bg.jpg')]">
-      <div class="grid md:grid-cols-3 grid-cols-1 gap-4">
+      <div class="grid md:grid-cols-5 grid-cols-3 gap-4">
         <!-- Email Box Section -->
         <div class="text-white text-center bg-red-200 hidden md:block">
           advertising
         </div>
-        <div>
+        <div class="md:col-span-3 col-span-12">
           <div
             class="bg-transparent border border-dashed border-slate-600 shadow-md p-6 rounded-md mx-auto max-w-md"
           >
             <p class="text-white text-lg mb-4">Your Temporary Email Address</p>
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-4 justify-center">
               <div
                 class="bg-[#ffffff0a] px-4 py-2 rounded-md flex items-center justify-between"
               >
@@ -140,55 +140,60 @@
         </div>
       </div>
     </div>
-    <div class="p-4 shadow-md">
-      <div class="container flex flex-wrap justify-center gap-6">
-        <a
-          href="#"
-          class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full hover:bg-green-500 duration transition-all"
-        >
-          <img src="https://temp-mail.org/js/images/copy.svg" alt="" />
+    <section class="bg-slate-100 pb-20">
+      <div class="p-4 shadow-md bg-white">
+        <div class="container flex flex-wrap justify-center gap-6">
+          <a
+            href="#"
+            class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full bg-slate-100 hover:bg-green-500 duration transition-all"
+          >
+            <img src="https://temp-mail.org/js/images/copy.svg" alt="" />
 
-          <p class="text-slate-900 text-sm">Copy</p>
-        </a>
-        <a
-          href="#"
-          class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full hover:bg-green-500 duration transition-all"
-        >
-          <img src="https://temp-mail.org/js/images/refresh.svg" alt="" />
+            <p class="text-slate-900 text-sm">Copy</p>
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full bg-slate-100 hover:bg-green-500 duration transition-all"
+          >
+            <img src="https://temp-mail.org/js/images/refresh.svg" alt="" />
 
-          <p class="text-slate-900 text-sm">Refresh</p>
-        </a>
-        <a
-          href="#"
-          class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full hover:bg-green-500 duration transition-all"
-        >
-          <img src="https://temp-mail.org/js/images/change.svg" alt="" />
+            <p class="text-slate-900 text-sm">Refresh</p>
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full bg-slate-100 hover:bg-green-500 duration transition-all"
+          >
+            <img src="https://temp-mail.org/js/images/change.svg" alt="" />
 
-          <p class="text-slate-900 text-sm">Change</p>
-        </a>
-        <a
-          href="#"
-          class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full hover:bg-green-500 duration transition-all"
-        >
-          <img src="https://temp-mail.org/js/images/delete.svg" alt="" />
+            <p class="text-slate-900 text-sm">Change</p>
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-4 px-8 py-4 shadow-md rounded-full bg-slate-100 hover:bg-green-500 duration transition-all"
+          >
+            <img src="https://temp-mail.org/js/images/delete.svg" alt="" />
 
-          <p class="text-slate-900 text-sm">Delete</p>
-        </a>
+            <p class="text-slate-900 text-sm">Delete</p>
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="grid md:grid-cols-5 grid-cols-3 mt-10 p-4 gap-4">
-      <div class="text-white text-center bg-red-200 hidden md:block col-span-1">
-        advertising
-      </div>
-      <div class="md:col-span-3 col-span-12 space-y-4">
-        <div class="bg-red-200 h-60 mb-4 text-white text-center"></div>
-        <div class="border border-slate-600 rounded-xl overflow-hidden">
-          <div class="bg-slate-900 p-6 flex items-center justify-between gap-4">
-            <span class="text-white">Sender</span>
-            <span class="text-white">Subject</span>
-            <span class="text-white">View</span>
-          </div>
-          <!-- <div class="bg-white min-h-[332px]">
+      <div class="grid md:grid-cols-5 grid-cols-3 mt-10 p-4 gap-4">
+        <div
+          class="text-white text-center bg-red-200 hidden md:block col-span-1"
+        >
+          advertising
+        </div>
+        <div class="md:col-span-3 col-span-12 space-y-4">
+          <div class="bg-red-200 h-60 mb-4 text-white text-center"></div>
+          <div class="border border-slate-600 rounded-xl overflow-hidden">
+            <div
+              class="bg-slate-900 p-6 flex items-center justify-between gap-4"
+            >
+              <span class="text-white">Sender</span>
+              <span class="text-white">Subject</span>
+              <span class="text-white">View</span>
+            </div>
+            <!-- <div class="bg-white min-h-[332px]">
           <ul>
             <li>
               <a href="#">
@@ -234,89 +239,488 @@
             </li>
           </ul>
         </div> -->
-          <div
-            class="p-4 bg-white min-h-[332px] flex items-center justify-center"
-          >
-            <div class="flex flex-col items-center gap-4">
-              <svg
-                width="92"
-                height="94"
-                viewBox="0 0 92 87"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M26 54.37V38.9C26.003 37.125 26.9469 35.4846 28.48 34.59L43.48 25.84C45.027 24.9468 46.933 24.9468 48.48 25.84L63.48 34.59C65.0285 35.4745 65.9887 37.1167 66 38.9V54.37C66 57.1314 63.7614 59.37 61 59.37H31C28.2386 59.37 26 57.1314 26 54.37Z"
-                  fill="#8C92A5"
-                ></path>
-                <path
-                  d="M46 47.7L26.68 36.39C26.2325 37.1579 25.9978 38.0312 26 38.92V54.37C26 57.1314 28.2386 59.37 31 59.37H61C63.7614 59.37 66 57.1314 66 54.37V38.9C66.0022 38.0112 65.7675 37.1379 65.32 36.37L46 47.7Z"
-                  fill="#CDCDD8"
-                ></path>
-                <path
-                  d="M27.8999 58.27C28.7796 58.9758 29.8721 59.3634 30.9999 59.37H60.9999C63.7613 59.37 65.9999 57.1314 65.9999 54.37V38.9C65.9992 38.0287 65.768 37.1731 65.3299 36.42L27.8999 58.27Z"
-                  fill="#E5E5F0"
-                ></path>
-                <path
-                  class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
-                  d="M77.8202 29.21L89.5402 25.21C89.9645 25.0678 90.4327 25.1942 90.7277 25.5307C91.0227 25.8673 91.0868 26.348 90.8902 26.75L87.0002 34.62C86.8709 34.8874 86.6407 35.0924 86.3602 35.19C86.0798 35.2806 85.7751 35.2591 85.5102 35.13L77.6502 31.26C77.2436 31.0643 76.9978 30.6401 77.0302 30.19C77.0677 29.7323 77.3808 29.3438 77.8202 29.21Z"
-                  fill="#E5E5F0"
-                ></path>
-                <path
-                  class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
-                  d="M5.12012 40.75C6.36707 20.9791 21.5719 4.92744 41.2463 2.61179C60.9207 0.296147 79.4368 12.3789 85.2401 31.32"
-                  stroke="#E5E5F0"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-                <path
-                  class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
-                  d="M14.18 57.79L2.46001 61.79C2.03313 61.9358 1.56046 61.8088 1.2642 61.4686C0.967927 61.1284 0.906981 60.6428 1.11001 60.24L5.00001 52.38C5.12933 52.1127 5.35954 51.9076 5.64001 51.81C5.92044 51.7194 6.22508 51.7409 6.49001 51.87L14.35 55.74C14.7224 55.9522 14.9394 56.36 14.9073 56.7874C14.8753 57.2149 14.5999 57.5857 14.2 57.74L14.18 57.79Z"
-                  fill="#E5E5F0"
-                ></path>
-                <path
-                  class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
-                  d="M86.9998 45.8C85.9593 65.5282 70.9982 81.709 51.4118 84.2894C31.8254 86.8697 13.1841 75.1156 7.06982 56.33"
-                  stroke="#E5E5F0"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </svg>
-              <p class="text-slate-900 text-xl text-center">
-                Your inbox is empty
-              </p>
-              <p class="text-slate-600 text-sm text-center tracking-widest">
-                Waiting for incoming emails
-              </p>
+            <div
+              class="p-4 bg-white min-h-[332px] flex items-center justify-center"
+            >
+              <div class="flex flex-col items-center gap-4">
+                <svg
+                  width="92"
+                  height="94"
+                  viewBox="0 0 92 87"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M26 54.37V38.9C26.003 37.125 26.9469 35.4846 28.48 34.59L43.48 25.84C45.027 24.9468 46.933 24.9468 48.48 25.84L63.48 34.59C65.0285 35.4745 65.9887 37.1167 66 38.9V54.37C66 57.1314 63.7614 59.37 61 59.37H31C28.2386 59.37 26 57.1314 26 54.37Z"
+                    fill="#8C92A5"
+                  ></path>
+                  <path
+                    d="M46 47.7L26.68 36.39C26.2325 37.1579 25.9978 38.0312 26 38.92V54.37C26 57.1314 28.2386 59.37 31 59.37H61C63.7614 59.37 66 57.1314 66 54.37V38.9C66.0022 38.0112 65.7675 37.1379 65.32 36.37L46 47.7Z"
+                    fill="#CDCDD8"
+                  ></path>
+                  <path
+                    d="M27.8999 58.27C28.7796 58.9758 29.8721 59.3634 30.9999 59.37H60.9999C63.7613 59.37 65.9999 57.1314 65.9999 54.37V38.9C65.9992 38.0287 65.768 37.1731 65.3299 36.42L27.8999 58.27Z"
+                    fill="#E5E5F0"
+                  ></path>
+                  <path
+                    class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
+                    d="M77.8202 29.21L89.5402 25.21C89.9645 25.0678 90.4327 25.1942 90.7277 25.5307C91.0227 25.8673 91.0868 26.348 90.8902 26.75L87.0002 34.62C86.8709 34.8874 86.6407 35.0924 86.3602 35.19C86.0798 35.2806 85.7751 35.2591 85.5102 35.13L77.6502 31.26C77.2436 31.0643 76.9978 30.6401 77.0302 30.19C77.0677 29.7323 77.3808 29.3438 77.8202 29.21Z"
+                    fill="#E5E5F0"
+                  ></path>
+                  <path
+                    class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
+                    d="M5.12012 40.75C6.36707 20.9791 21.5719 4.92744 41.2463 2.61179C60.9207 0.296147 79.4368 12.3789 85.2401 31.32"
+                    stroke="#E5E5F0"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
+                    d="M14.18 57.79L2.46001 61.79C2.03313 61.9358 1.56046 61.8088 1.2642 61.4686C0.967927 61.1284 0.906981 60.6428 1.11001 60.24L5.00001 52.38C5.12933 52.1127 5.35954 51.9076 5.64001 51.81C5.92044 51.7194 6.22508 51.7409 6.49001 51.87L14.35 55.74C14.7224 55.9522 14.9394 56.36 14.9073 56.7874C14.8753 57.2149 14.5999 57.5857 14.2 57.74L14.18 57.79Z"
+                    fill="#E5E5F0"
+                  ></path>
+                  <path
+                    class="animate-[spin_2s_linear_infinite] origin-[50%_50%]"
+                    d="M86.9998 45.8C85.9593 65.5282 70.9982 81.709 51.4118 84.2894C31.8254 86.8697 13.1841 75.1156 7.06982 56.33"
+                    stroke="#E5E5F0"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                <p class="text-slate-900 text-xl text-center">
+                  Your inbox is empty
+                </p>
+                <p class="text-slate-600 text-sm text-center tracking-widest">
+                  Waiting for incoming emails
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center space-y-4">
+            <p class="text-slate-900 text-2xl">
+              What is Disposable Temporary E-mail?
+            </p>
+            <p class="text-slate-600 text-sm">
+              Disposable email - is a free email service that allows to receive
+              email at a temporary address that self-destructed after a certain
+              time elapses. It is also known by names like : tempmail,
+              10minutemail, 10minmail, throwaway email, fake-mail , fake email
+              generator, burner mail or trash-mail. Many forums, Wi-Fi owners,
+              websites and blogs ask visitors to register before they can view
+              content, post comments or download something. Temp-Mail - is most
+              advanced throwaway email service that helps you avoid spam and
+              stay safe.
+            </p>
+          </div>
+        </div>
+        <div
+          class="text-white text-center bg-red-200 hidden md:block col-span-1"
+        >
+          advertising
+        </div>
+      </div>
+      <div class="container mx-auto mt-10">
+        <div class="text-center space-y-4">
+          <p class="text-slate-900 text-2xl">Popular Articles</p>
+          <div class="grid md:grid-cols-2 grid-cols-1 gap-6">
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4 flex flex-wrap">
+              <div class="text-left flex-1 space-y-4">
+                <p class="text-lg font-medium">
+                  Private domains. How to get your own Temporary Email (2021)
+                </p>
+                <p class="text-slate-600 text-sm">
+                  How to create temporary email on your own private domain and
+                  how it helps you to bypass common issues with registrations.
+                </p>
+              </div>
+              <div class="flex-none">
+                <div class="h-32 w-32">
+                  <img
+                    src="https://temp-mail.org/blog/content/images/size/w760/2021/09/11.png"
+                    class="h-full w-full object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="text-center space-y-4">
-          <p class="text-slate-900 text-2xl">
-            What is Disposable Temporary E-mail?
+      </div>
+      <div class="container mx-auto mt-10 space-y-10">
+        <div class="space-y-4">
+          <p class="text-slate-950 text-xl font-medium">
+            The Tech behind Disposable Email Addresses
           </p>
-          <p class="text-slate-600 text-sm">
-            Disposable email - is a free email service that allows to receive
-            email at a temporary address that self-destructed after a certain
-            time elapses. It is also known by names like : tempmail,
-            10minutemail, 10minmail, throwaway email, fake-mail , fake email
-            generator, burner mail or trash-mail. Many forums, Wi-Fi owners,
-            websites and blogs ask visitors to register before they can view
-            content, post comments or download something. Temp-Mail - is most
-            advanced throwaway email service that helps you avoid spam and stay
-            safe.
+          <div class="space-y-6">
+            <p class="text-slate-600 text-sm font-normal">
+              Everyone owns an email address each and every hour, for everything
+              from connecting at work, with business prospects, reaching out to
+              friends and colleagues using the email address as an online
+              passport. Nearly 99% of all apps and services we sign-up today
+              required an email address, likewise to most shoppers loyalty
+              cards, contest and offer entries, and more.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              We all enjoy having an email address, but getting tons of spam
+              emails each day doesn’t feel comfortable. Furthermore, it’s
+              entirely common for stores to have their databases hacked, leaving
+              your business email address at risk and more likely to end up on
+              spam lists. Still, nothing done online is 100% private. Thus you
+              need to protect your email contact identity and best done using
+              disposable emails address.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <p class="text-slate-950 text-xl font-medium">
+            So, What Is A Disposable Email Address?
           </p>
+          <div class="space-y-6">
+            <p class="text-slate-600 text-sm font-normal">
+              Recently, I found a bounce rate complex than usual on my latest
+              email blast! I later realized the surge of users (or bots) signing
+              up for my services hiding their real identity using disposable
+              mail addresses.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              Disposable email address (DEA) technically means an approach where
+              a user’s with a unique email address gets a temporary email
+              address for your current contact. The DEA allow the creation of an
+              email address that passes validity need to sign-up for services
+              and website without having to show your true identity.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              Disposable emails address if compromised or used in connection
+              with email abuse online, the owner can’t be tied to the abuse and
+              quickly cancel its application without affecting other contacts.
+              With temporary mail, you can you receive your emails from the fake
+              emails in your genuine emails address for a specified time set.
+              The fake email address is simply a through-away email, temporary
+              email set and self-destructs email.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <p class="text-slate-950 text-xl font-medium">
+            Why would you need a fake email address?
+          </p>
+          <div class="space-y-6">
+            <p class="text-slate-600 text-sm font-normal">
+              You must have noted services such as Amazon Prime, Hulu and
+              Netflix allow limited-time test runs(trials), however, if still
+              determined to use the services all you need is a disposable email
+              address. Technically, you can extend your trial usage using a
+              different email address linked to your original (genuine) after
+              the trial period expires.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              An offline or online retailer tend to demand an email address to
+              take advantage of their offers, however, this result in an
+              unwanted deluge of spam promotional emails that you could avoid.
+              Temporary email address makes it easy to cut out those irritating
+              messages you are still receiving.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              Technically, the idea of a temporary email address conjures up
+              with black hat hackers and underworld internet, but there are
+              convincing reason to us fake email services.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              If you are looking for legitimate reasons to use a disposable
+              email address here’s a few:
+            </p>
+            <ul class="space-y-4 ps-5">
+              <li class="list-disc space-y-2">
+                <p class="text-slate-900 text-base font-medium">
+                  Sign-Up For Store Loyalty Card:
+                </p>
+                <p class="text-slate-600 text-sm font-normal">
+                  If you don’t want to get promotional emails from the store
+                  adverting new products, use a disposable email address instead
+                  of your business email address, and you rule out spam emails.
+                  If the store gets hacked for email, you real email address
+                  won’t get stolen.
+                </p>
+              </li>
+              <li class="list-disc space-y-2">
+                <p class="text-slate-900 text-base font-medium">
+                  Test Your App:
+                </p>
+                <p class="text-slate-600 text-sm font-normal">
+                  You just completed coding a web app, and you want to test it
+                  comprehensively before releasing it for sale, you can easily
+                  get 100 disposable emails, create dummy accounts and test it
+                  yourself other than hiring unreliable users online to test the
+                  app.
+                </p>
+              </li>
+              <li class="list-disc space-y-2">
+                <p class="text-slate-900 text-base font-medium">
+                  Sign-Up For Double Account With A Web App:
+                </p>
+                <p class="text-slate-600 text-sm font-normal">
+                  You need another IFTTT account to program a second Twitter
+                  account run for your marketing site. A new account needs a
+                  different mail from your default, to rule out managing a new
+                  email inbox, get a new disposable email address at
+                  temp-mail.org
+                </p>
+              </li>
+              <li class="list-disc space-y-2">
+                <p class="text-slate-900 text-base font-medium">
+                  Eliminate Spam:
+                </p>
+                <p class="text-slate-600 text-sm font-normal">
+                  A Disposable email address is a very useful tool against spam,
+                  especially, for users who consistently access web forms,
+                  forums and discussion groups you can curb spam to an absolute
+                  minimum with a disposable email address.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <p class="text-slate-950 text-xl font-medium">
+            Why would you need a fake email address?
+          </p>
+          <div class="space-y-6">
+            <p class="text-slate-600 text-sm font-normal">
+              The best fake email provider should:
+            </p>
+            <ul class="space-y-4 ps-5">
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  Allow users create temporary emails address at the click of a
+                  button.
+                </p>
+              </li>
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  No registration is registration or identity information about
+                  the user.
+                </p>
+              </li>
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  The email address should remain anonymous.
+                </p>
+              </li>
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  Offer more than one email address (as many as you may want).
+                </p>
+              </li>
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  Offers temporarily email stored (temporal email inbox at
+                  user’s disposal).
+                </p>
+              </li>
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  Straightforward and functional design to get a mundane email.
+                </p>
+              </li>
+              <li class="list-disc">
+                <p class="text-slate-600 text-sm font-normal">
+                  Provider random account and users can choose an address of
+                  choice.
+                </p>
+              </li>
+            </ul>
+            <p class="text-slate-600 text-sm font-normal mt-4">
+              Thus stay spam free and save time with temp-mail.org your favorite
+              email service. .
+            </p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <p class="text-slate-950 text-xl font-medium">
+            How to Use Disposable Email Address?
+          </p>
+          <div class="space-y-6">
+            <p class="text-slate-600 text-sm font-normal">
+              Users choose to get disposable email address by creating a new
+              email account with their current email provider’s such as Gmail,
+              but the account comes with many challenges such as you will have
+              to manage emails new account. Users, who opt for free mail
+              services by creating a new account, put up with a new email
+              address.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              It’d work if you had one email address and a few disposable emails
+              from temp-mail.org and managed one account inbox.
+            </p>
+            <p class="text-slate-600 text-sm font-normal">
+              The amazing thing about a disposable email address is you can
+              forward directly to your real email account. In case the
+              disposable email address is compromised, and you are suspicious of
+              one of your contacts you can have those emails sent directly to
+              your trash, and for those necessary connections have them sent
+              directly to your real email address inbox.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <p class="text-slate-950 text-xl font-medium">To Conclude:</p>
+          <div class="space-y-6">
+            <p class="text-slate-600 text-sm font-normal">
+              Have a disposable mail address system set up in a fantastic way to
+              make sure when you participate in online wikis, chat rooms, and
+              file sharing services and bulletin boards forums your real
+              identity is never disclosed and never sold to anyone to avoid mail
+              spam with Temp-mail.org.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="text-white text-center bg-red-200 hidden md:block col-span-1">
-        advertising
-      </div>
-    </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-800 text-white p-4 mt-10 pb-20">
+    <footer class="bg-slate-800 text-white p-4 pb-20">
       <div class="container mx-auto text-center space-y-4">
         <ul
           class="flex flex-wrap justify-center gap-4 text-sm font-normal text-slate-300 py-4 border-b border-slate-600 border-solid"
@@ -334,7 +738,9 @@
           <li class="hover:text-green-500"><a href="#">Contacts</a></li>
           <li class="hover:text-green-500"><a href="#">Advertising</a></li>
         </ul>
-        <div class="flex items-center gap-4 justify-center md:justify-between flex-wrap">
+        <div
+          class="flex items-center gap-4 justify-center md:justify-between flex-wrap"
+        >
           <ul
             class="flex items-center text-slate-500 text-xs divide-x divide-slate-600 divide-solid space-x-1 font-normal block order-2 md:order-1"
           >
@@ -348,7 +754,9 @@
               <a href="#" class="">My Phone Number</a>
             </li>
           </ul>
-          <div class="flex items-center block gap-4 justify-center order-1 md:order-2">
+          <div
+            class="flex items-center block gap-4 justify-center order-1 md:order-2"
+          >
             <a
               href="#"
               target="_blank"
@@ -432,14 +840,14 @@
           <div class="order-3 md:order-3 block">
             <form action="/action_page.php">
               <select
-                name="country"
-                id="country"
+                name="language"
+                id="language"
                 class="bg-slate-700 p-2 rounded-xl border border-slate-600"
               >
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
+                <option value="English">English</option>
+                <option value="Espanol">Espanol</option>
+                <option value="French">French</option>
+                <option value="Arabic">Arabic</option>
               </select>
             </form>
           </div>
